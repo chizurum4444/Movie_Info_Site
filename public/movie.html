@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+        <link rel="stylesheet" href ="styles/movie.css" />
+    <script type="text/javascript" src="scripts/movie.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  </head>
+  <body>
+      <div id = 'form-window'>
+          <div id = 'form' class = 'content-tab'>
+              <div id = 'image-container'>
+                  
+              </div>
+                <table>
+                    <tr>
+                        <td style = 'text-align:center; padding:10px'>
+                            <label class ="label" >Title:</label>
+                        </td>
+                        <td style = 'padding:10px'>
+                            <div class = 'control has-icons-right'>
+                                <input class = 'input' type="text" id="titleField" />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style = 'text-align:center; padding:10px'>
+                            <label class ="label" >Year:</label>
+                        </td>
+                        <td style = 'padding:10px; width:400px'>
+                            <div class = 'control has-icons-right'>
+                                <input class = 'input' type="text" id="yearField" />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style = 'text-align:center; padding:10px'>
+                            <label class ="label" >Genre:</label>
+                        </td>
+                        <td style = 'padding:10px'>
+                            <div class = 'control has-icons-right'>
+                                <input class = 'input' type="text" id="genreField" />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style = 'text-align:center; padding:10px'>
+                            <label class ="label" >Runtime:</label>
+                        </td>
+                        <td style = 'padding:10px'>
+                            <div class = 'control has-icons-right'>
+                                <input class = 'input' type="text" id="runtimeField" />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style = 'text-align:center; padding:10px'>
+                            <label class ="label" >Director:</label>
+                        </td>
+                        <td style = 'padding:10px'>
+                            <div class = 'control has-icons-right'>
+                                <input class = 'input' type="text" id="directorField" />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style = 'text-align:center; padding:10px'>
+                            <label class ="label" >Writer:</label>
+                        </td>
+                        <td style = 'padding:10px'>
+                            <div class = 'control has-icons-right'>
+                                <input class = 'input' type="text" id="writerField" />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style = 'text-align:center; padding:10px'>
+                            <label class ="label" >Actors:</label>
+                        </td>
+                        <td style = 'padding:10px'>
+                            <div class = 'control has-icons-right'>
+                                <input class = 'input' type="text" id="actorsField" style = 'height: 5rem'/>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style = 'text-align:center; padding:10px'>
+                            <label class ="label" >Plot:</label>
+                        </td>
+                        <td style = 'padding:10px'>
+                            <div class = 'control has-icons-right'>
+                                <input class = 'input' type="text" id="plotField" style = 'height: 7rem' />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style = 'text-align:center; padding:10px'>
+                            <label class ="label" >Rating:</label>
+                        </td>
+                        <td style = 'padding:10px' >
+                            <ul style = 'list-style-type: none' id = 'ratingList'> </ul>
+                        </td>
+                    </tr>
+                
+                </table>            
+           </div>
+       </div>   
+   </body>	
+</html>
