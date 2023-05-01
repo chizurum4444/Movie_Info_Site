@@ -4,4 +4,4 @@
 
 Note: This site currently only offers showins for Oshawa cinemas and will only display the hardcoded json.
 
-- Please input date as 01/01/2021 in order to display movie showtimes.
+  - Please input date as 01/01/2021 in order to display movie showtimes.
